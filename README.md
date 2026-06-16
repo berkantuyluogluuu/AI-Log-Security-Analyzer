@@ -14,6 +14,6 @@ This repository contains a light-weight, high-performance Python automated scrip
 - `security_report.html` -> The generated executive threat report.
 
 ## 🛠️ How to Run
-1. Clone the repository: `git clone https://github.com/YOUR_USERNAME/AI-Log-Security-Analyzer.git`
+1. Clone the repository: `git clone https://github.com/berkantuyluogluuu/AI-Log-Security-Analyzer.git`
 2. Navigate to the project directory and run the analyzer: `python log_analyzer.py`
 3. Open `security_report.html` in any browser to inspect the visual incident reports.
