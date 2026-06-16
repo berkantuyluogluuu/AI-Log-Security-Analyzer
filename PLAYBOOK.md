@@ -82,4 +82,7 @@ To prevent recurrence and maintain standard compliance, the following ISO 27001 
 | ISO 27001 Control | Action Item Required |
 | :--- | :--- |
 | **A.8.19 (Secure coding)** | Update the organization's Secure Coding Guidelines to mandate parameterized queries. Integrate mandatory SAST scanning into the CI/CD pipeline to catch SQLi before deployment. |
-| **A.8.20
+| **A.8.20 (Network security)** | Tune WAF inspection rules specifically for SQL injection vectors and signatures. |
+| **A.5.7 (Threat intelligence)** | Feed the malicious IPs and indicators identified by the Python tool into the corporate Threat Intelligence Platform (TIP). |
+| **A.8.24 (Use of cryptography)** | Review encryption status of sensitive data at rest within the database. If an attacker accesses the tables via SQLi in the future, critical data (like passwords or PII) must remain strongly hashed/encrypted. |
+
