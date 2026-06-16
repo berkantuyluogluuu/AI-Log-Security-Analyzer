@@ -1,0 +1,11 @@
+2026-06-16 10:00:01 INFO User 'ahmet' logged in successfully from IP 192.168.1.50
+2026-06-16 10:02:15 WARNING Invalid login attempt - Failed password for user 'admin' from IP 203.0.113.5
+2026-06-16 10:02:18 WARNING Invalid login attempt - Failed password for user 'admin' from IP 203.0.113.5
+2026-06-16 10:02:22 WARNING Invalid login attempt - Failed password for user 'admin' from IP 203.0.113.5
+2026-06-16 10:05:40 INFO User 'mehmet' updated profile picture from IP 192.168.1.55
+2026-06-16 10:12:11 ALERT Malicious traffic detected - Nmap port scanning activity from IP 198.51.100.12
+2026-06-16 10:15:33 INFO Database backup completed successfully
+2026-06-16 10:20:02 CRITICAL Web application firewall blocked SQL Injection attempt: UNION SELECT username, password FROM users from IP 45.33.22.11
+2026-06-16 10:22:15 WARNING Invalid login attempt - Failed password for user 'root' from IP 203.0.113.5
+2026-06-16 10:25:00 INFO User 'sibel' logged out from IP 192.168.1.60
+2026-06-16 10:30:45 CRITICAL Web application firewall blocked SQL Injection attempt: OR 1=1 -- from IP 45.33.22.11
